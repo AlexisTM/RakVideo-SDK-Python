@@ -35,4 +35,4 @@ pipe1.resolution(0).quality(5).fps(1).gop(1)
 
 ## Credits
 
-- [@AlexisTM](http://github.com/AlexisTM) - AlexisTM
+- [@AlexisTM](http://github.com/AlexisTM): Alexis Paques
