@@ -6,7 +6,7 @@ import requests
 QUALITY=["QVGA", "VGA", "720p", "1080p"]
 
 
-class RakSetup(object):
+class RakRaw(object):
   def __init__(self, ip="192.168.100.100", username="admin", password="admin"):
     self.ip = ip
     self.username = username
@@ -30,7 +30,7 @@ class RakSetup(object):
     pass
 
 
-class Pipe(object):
+class RakDevice(object):
   def __init__(self, ip, pipe, username="admin", password="admin"):
     self._pipe = int(pipe)
     self._resolution = None
@@ -38,7 +38,7 @@ class Pipe(object):
     self._quality = None
     self._gop = None
     self._version = None
-    self.API = RakSetup(ip, username, password) 
+    self.API = RakRaw(ip, username, password) 
 
   @property
   def password(self):
@@ -163,7 +163,7 @@ class Pipe(object):
 
 
 def main():
-  rak = Pipe("192.168.100.100", 1)
+  rak = RakDevice("192.168.100.100", 1)
   print(rak.version)
 
 if __name__ == "__main__":
