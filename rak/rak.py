@@ -146,6 +146,11 @@ class RakDevice(object):
 
   def refresh(self):
     # Trigger getters:
+    self._gop = None
+    self._fps = None
+    self._quality = None
+    self._resolution = None
+    self._version = None
     _ = self.gop
     _ = self.quality
     _ = self.fps

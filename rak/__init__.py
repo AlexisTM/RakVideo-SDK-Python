@@ -1,4 +1,4 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from . import RakRaw, RakDevice
+from . import RakRaw, RakDevice, QUALITY
