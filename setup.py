@@ -8,9 +8,11 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
   name = 'rak',
   packages = ['rak'],
-  version = '0.1.1',
+  version = '0.1.2',
   license='MIT',
   description = 'Rak Wireless Pythonic API for configuration',
+  long_description=long_description,
+  long_description_content_type='text/markdown',
   author = 'Alexis Paques',
   author_email = 'alexis.paques@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/alexistm/RakVideo-SDK-Python',   # Provide either the link to your github or to your website
