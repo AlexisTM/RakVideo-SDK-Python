@@ -8,7 +8,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
   name = 'rak',
   packages = ['rak'],
-  version = '0.1.2',
+  version = '0.1.3',
   license='MIT',
   description = 'Rak Wireless Pythonic API for configuration',
   long_description=long_description,
