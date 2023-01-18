@@ -1,4 +1,7 @@
 # RakVideo-SDK-Python
+
+> Due to the lack of available hardware available to me, this goes unmaintained.
+
 Python API for the RAK Video modules, tested on RAK566
 
 ## Installation
